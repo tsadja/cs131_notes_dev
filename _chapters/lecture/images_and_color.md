@@ -30,12 +30,10 @@ The Table of Contents:
 
 ## 1. Images, Sampling and Quantization
 
-**How do computers store images?**
-
 ### Types of Images
 There exists three main types of images commonly processed using computer vision: binary, grayscale, and color images.
 
-A computer stores an image as a matrix of values. A q by p pixel image is stored in a computer as a matrix with q rows and p columns. Every element inside of the matrix is a pixel, and the data the pixel stores will depend on the type of image. 
+**How do computers store images?** A computer stores an image as a matrix of values. A q by p pixel image is stored in a computer as a matrix with q rows and p columns. Every element inside of the matrix is a pixel, and the data the pixel stores will depend on the type of image. 
 
 
 A binary image is a matrix of pixels, where each pixel can only take two values. In this graphical display, pixels that have a value of '0' are displayed as black, while pixels with a value of '1' are displayed as white.
