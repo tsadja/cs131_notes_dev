@@ -13,11 +13,11 @@ The Table of Contents:
   - [Radiometry](#radiometry)
   - [Reflectance spectra of surfaces](#reflectance-spectra-of-surfaces)
 - [Color Matching](#3-color-matching)
-  - [Why Do We Specify Color Numerically?](#why-do-we-specify-color-numerically)
-  - [Color Reproduction Concern: Perception](#color-reproduction-concern-perception)
-  - [How Do We Sense Light Spectra?](#how-do-we-sense-light-spectra)
+  - [Why Do We Specify Color Numerically](#why-do-we-specify-color-numerically)
+  - [Color Reproduction Concern and Perception](#color-reproduction-concern-and-perception)
+  - [How Do We Sense Light Spectra](#how-do-we-sense-light-spectra)
   - [The Color Matching Experiment](#the-color-matching-experiment)
-  - [How to Measure a Color?](#how-to-measure-a-color)
+  - [How to Measure a Color](#how-to-measure-a-color?)
 
 
 
