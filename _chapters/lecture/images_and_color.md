@@ -165,7 +165,7 @@ In the color matching experiment, the subject adjusts the intensities of the 3 p
 In order to measure a color, we model our procedure after the color matching experiment. First, choose 3 primary colors. Next, adjust the intensities with positive or negative weights to match the test light. Note that we can have weighted sums of primaries that are different, but ultimately result in the same perception of color because the projection to the 3D space with the cone sensitivity basis vectors leads to the same L, M, and S responses. 
 
 ## 4 Color Constancy
-### 4.1 Color Perception
+### Color Perception
 The colors that we perceive are dependent on the colors surrounding them. Even though two colors may have different RGB values, we can still perceive them as the same color. Or, we can look at two colors with the same RGB values and perceive them as different colors
 
 <div class="fig figcenter fighighlight">
@@ -186,7 +186,7 @@ The colors that we perceive are dependent on the colors surrounding them. Even t
 
 The true color of a point cannot be directly inferred from its RGB value in an image. Rather, the effects of illumination on the scene must be considered as well.
 
-### 4.2 Lightness Constancy
+### Lightness Constancy
 We want to be able to find the true color of a surface regardless of the effects of illumination. We can do so through the equation below. Luminance represents the color that we perceive.
 \\[Luminance (L) = Reflectance(R) * Illumination(I)\\] Our goal with this equation is to solve for the reflectance, R, and obtain the true color. This equation is based on the idea of **lightness constancy**.  That is, we will still perceive a surface to have the same reflectance under different lighting conditions because it will always reflect a constant proportion of the light coming in. So, even if we see two objects with the same luminance, we won't think of them as having the same reflectance if the lighting conditions are different because they are reflecting different proportions of light, so  they cannot have the same reflectance. 
 <div class="fig figcenter fighighlight">
@@ -196,7 +196,7 @@ We want to be able to find the true color of a surface regardless of the effects
 
 ---
 
-### 4.3 Retinex Theory
+### Retinex Theory
 Edges affect the way we perceive color.
 <div class="fig figcenter fighighlight">
   <img src="https://i.imgur.com/gwnFxqK.png">
@@ -218,7 +218,7 @@ According to Land and McCann's Retinex theory, this is because edges, or sharp c
 
 
 
-### 4.4 Moving to a 3D World
+### Moving to a 3D World
 In a 3D world, we need to deal with changes in orientation and reflectance edges, making the previous ideas difficult to apply. These are problems that need to be tackled in computer vision.
 
 <div class="fig figcenter fighighlight">
