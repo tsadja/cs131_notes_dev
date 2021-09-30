@@ -1,0 +1,27 @@
+# Color Matching
+## Why Do We Specify Color Numerically?
+We specify colors numerically, because we want to reproduce the colors accurately often for commercial use, and we want to be able to create a wide range of colors. 
+
+## Color Reproduction Concern: Perception
+Humans have photoreceptors specified by 3 cones known as L, M, and S, which are sensitive to different wavelengths. A color's appearance depends on illumination, the eye's adaptation level, and the color and scene surrounding the color influenced by factors such as geometry and color contrast. For the sake of this lecture, we assume the the spectrum of light coming to the eye completely determines the perceived color. 
+
+<p align="center">
+  <img src="./LMS_cones.png" width="350" title="LMS cones"</img>
+  <br>
+  <em> Spectral sensitivities of the L, M, and S cones. </em>
+</p>
+
+## How Do We Sense Light Spectra?
+Based on the assumption made in the previous section, we can mathematically express the biophysical response to light. We have an input test light, which is projected into 3D space with the dot product between the input spectrum and the cone sensitivity basis vectors. Based on this dot product, we get the L, M, and S responses. 
+
+## The Color Matching Experiment
+In the color matching experiment, the subject adjusts the intensities of the 3 primary lights to match the appearance of the test light. Based on experiments, we find that the weight of each primary light can be either positive or negative to match the test light. Furthermore, color matching superposition, also known as Grassman's Law, shows us that if lights A<sub>1</sub> and B<sub>1</sub> are equal and lights A<sub>2</sub> and B<sub>2</sub> are equal, then A<sub>1</sub> + A<sub>2</sub> = B<sub>1</sub> + B<sub>2</sub>.
+
+<p align="center">
+  <img src="./Color_matching_exp.png" width="500" title="Color matching experiment"</img>
+  <br>
+    <em>(A) Illustration of the color matching experiment, where the subject views a bipartite field and adjusts the primary colors to match the test light. (B) Appearance of the experiment to the subject. </em>
+</p>
+
+## How to Measure a Color?
+In order to measure a color, we model our procedure after the color matching experiment. First, choose 3 primary colors. Next, adjust the intensities with positive or negative weights to match the test light. Note that we can have weighted sums of primaries that are different, but ultimately result in the same perception of color because the projection to the 3D space with the cone sensitivity basis vectors leads to the same L, M, and S responses. 
