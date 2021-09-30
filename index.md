@@ -3,18 +3,8 @@ layout: index
 
 # Configure modules to show
 modules:
-  - name: Instructions
-    chapter_dir: instructions
-  - name: Pixels
-    chapter_dir: pixels
-  - name: Images
-    chapter_dir: images
-  - name: Recognition
-    chapter_dir: recognition
-  - name: Videos
-    chapter_dir: videos
-  - name: Cameras
-    chapter_dir: cameras
+  - name: Lecture 2
+    chapter_dir: lecture
 ---
 
 These notes accompany the Stanford CS class [**CS131**](http://cs131.stanford.edu/), Computer Vision: Foundations
