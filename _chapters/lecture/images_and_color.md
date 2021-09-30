@@ -1,3 +1,9 @@
+---
+title: Images and Color
+keywords:
+order: 0
+---
+
 # Color Matching
 ## Why Do We Specify Color Numerically?
 We specify colors numerically, because we want to reproduce the colors accurately often for commercial use, and we want to be able to create a wide range of colors. 
