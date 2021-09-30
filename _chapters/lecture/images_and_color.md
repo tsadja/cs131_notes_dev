@@ -5,6 +5,7 @@ order: 0
 ---
 
 The Table of Contents:
+
 -[Images, Sampling, and Quantization]
   - [Types of Images](#types-of-images)
   - [Sampling](#sampling)
