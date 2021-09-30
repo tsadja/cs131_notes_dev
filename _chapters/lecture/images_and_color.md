@@ -14,7 +14,7 @@ The Table of Contents:
   - [Reflectance spectra of surfaces](#reflectance-spectra-of-surfaces)
 
 
-## 2 Color Physics
+## 2. Color Physics
 
 ### Motivation Question
 **Why does a visual system need color?**
