@@ -38,18 +38,18 @@ changes, to group parts of one object together in a scene...
 - Any patch of light can be completely described physically by its spectrun: the number of photons (per time unit) at each wavelength 400 - 700 nm.
 
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/intro_1.png" width="500"> 
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/intro_2.png" width="300">
+  <img src="https://i.imgur.com/BlbK6eT.png" width="500"> 
+  <img src="https://i.imgur.com/j1GObc1.png" width="300">
 </p>
   
 - Example of light sources:
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/intro_3.png" width="300">
+  <img src="https://i.imgur.com/dbpIYBI.png" width="300">
 </p>
   
 - Colors and complements:
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/intro_4.png" width="400">
+  <img src="https://i.imgur.com/q8qljqw.png" width="400">
 </p>
 
 - **Additive color mixing**:
@@ -57,7 +57,7 @@ changes, to group parts of one object together in a scene...
   - Light adds to black
   - Ex. Cathode Ray Tube phosophors, multiple projectors
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/add.png" width="350">
+  <img src="https://i.imgur.com/f1qDEvZ.png" width="350">
 </p>
 
 - **Subtractive color mixing**:
@@ -65,7 +65,7 @@ changes, to group parts of one object together in a scene...
   - Pigments remove color from incident light (white) 
   - Ex. Printing on paper, crayons, most photographic film
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/sub.png" width="350">
+  <img src="https://i.imgur.com/8IuyV6n.png" width="350">
 </p>
 
 
@@ -85,13 +85,13 @@ Different possibilities when a photon is emitted:
 - **Radiance**: power emitted per unit area in a direction - directions specified by polor angle and azimuth
 - **Irradiance**: total incident power falling on a surface 
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/brdf_ill.png" width="400">
+  <img src="https://i.imgur.com/Tn8jTqq.png" width="400">
 </p>
 
 - **Bidirectional reflectance distribution function**: 
 Model of local reflection that tells how *bright* a surface appears when viewed from one direction when light falls on it from another 
  <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/brdf.png" width="400">
+  <img src="https://i.imgur.com/8fXB83n.png" width="400">
 </p>
 
 - **BRDF is a very general notion**
@@ -103,7 +103,7 @@ Model of local reflection that tells how *bright* a surface appears when viewed 
 
 - **Lambertian Reflectance**
   <p align="center">
-    <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/lambertian.png" width="400">
+    <img src="https://i.imgur.com/QQgn85Z.png" width="400">
   </p>
   - Lambertian/diffuse surfaces: appear equally bright from all viewing directions (viewing direction no longer necessary in the equation vs. BRDF)
 
@@ -112,14 +112,14 @@ Model of local reflection that tells how *bright* a surface appears when viewed 
   
   - BRDF -> reflectance: For diffuse reflections, we replace the BRDF calculation with a wavelength-by-wavelength scalar multiplication
   <p align="center">
-    <img src="https://github.com/miamiao811/cs131_notes_dev/blob/27e8379aadd516bdfaa1880b3162fc6e36a6cde2/_chapters/images/ref.png" width="200">
-    <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/simplified-bd.png" width="600">
+    <img src="https://i.imgur.com/uoInRKK.png" width="200">
+    <img src="https://i.imgur.com/4ZsfyLu.png" width="600">
   </p>
   
   - Transmittance
   <p align="center">
-    <img src="https://github.com/miamiao811/cs131_notes_dev/blob/27e8379aadd516bdfaa1880b3162fc6e36a6cde2/_chapters/images/trans.png" width="200">
-    <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/simplified-tr.png" width="600">
+    <img src="https://i.imgur.com/XG0qBug.png" width="200">
+    <img src="https://i.imgur.com/tNKIzOc.png" width="600">
   </p>
 
 <a name='ref'></a>
@@ -127,12 +127,12 @@ Model of local reflection that tells how *bright* a surface appears when viewed 
 ### Reflectance spectra of surfaces
 - Some surfaces reflect incoming lights (vs. light sources)
 <p align="center">
-  <img src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/reflectance_1.png" width="400">
+  <img src="https://i.imgur.com/rkZ3YYP.png" width="400">
 </p>
 
 - Notice that different colours typically have different spectral albedo, but that different spectral albedoes may result in the same perceived color (compare the two whites) because of our own perceptive systems.
 <p align="center">
-  <img align="center" src="https://github.com/miamiao811/cs131_notes_dev/blob/18d6d3789f3ea96cef65b9376c52e32e31957055/_chapters/images/reflectance_2.png" width="400">
+  <img align="center" src="https://i.imgur.com/URZitNz.png" width="400">
 </p>
 
 
