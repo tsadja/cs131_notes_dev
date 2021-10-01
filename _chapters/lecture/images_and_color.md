@@ -87,11 +87,28 @@ There exists three main types of images commonly processed using computer vision
 
 
 ### Sampling
+
+  <p align="center">
+    <img src="https://i.imgur.com/iHWKOrT.png" width="200"> 
+    <div class="figcaption">This is an example sine wave. The axes are spaced by light intensity.</div>
+  </p>
+  
+    <p align="center">
+    <img src="https://i.imgur.com/6WuH64Q.png" width="200"> 
+    <div class="figcaption">This is a sampled sine wave. Information is lost as the original sine wave is being sampled at a discrete and finite amount of points.</div>
+  </p>
+
 Sampling involves the digitialization of image coordinates values. All digital images are sampled, and are thusly composed of discrete pixels that are arranged in a matrix. This means that the digital image is only an approximation of the real world. 
 
 
 
 ### Quantization
+
+    <p align="center">
+    <img src="https://i.imgur.com/kRWntCz.png" width="200"> 
+    <div class="figcaption">This is a quantized sine wave. </div>
+  </p>
+  
 Quantization involves the digitalization of image amplitude values. Due to dissonance between the fundamentally continuous nature of light and the discrete nature of digital images, the values of the individual pixels are also discretized. Therefore, each pixel undergoes a quantization function depending on the image type:
 
 <p align="center">
