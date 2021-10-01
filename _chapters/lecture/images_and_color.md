@@ -38,8 +38,8 @@ changes, to group parts of one object together in a scene...
 - Any patch of light can be completely described physically by its spectrun: the number of photons (per time unit) at each wavelength 400 - 700 nm.
 
 <p align="center">
-  <img src="https://i.imgur.com/BlbK6eT.png" width="500"> 
-  <img src="https://i.imgur.com/j1GObc1.png" width="300">
+  <img src="https://i.imgur.com/BlbK6eT.png" width="300"> 
+  <img src="https://i.imgur.com/j1GObc1.png" width="200">
 </p>
   
 - Example of light sources:
@@ -70,7 +70,7 @@ changes, to group parts of one object together in a scene...
 
 
 ### Photon
-Different possibilities when a photon is emitted:
+There are many possibilities when a photon is emitted:
 - **Absorption**: photon absorbed by the surface
 - **Diffuse reflection** (diffusion): reflected to any other directions with uniform distribution 
 - **Specular Reflection**: reflected with respect to the normal vector of the surface
@@ -82,14 +82,14 @@ Different possibilities when a photon is emitted:
 - **Interreflection**: multiple surfaces causing multiple reflections
 
 ### Radiometry
-- **Radiance**: power emitted per unit area in a direction - directions specified by polor angle and azimuth
-- **Irradiance**: total incident power falling on a surface 
+- **Radiance** is the power emitted per unit area in a direction, and the directions are specified by polor angle and azimuth
+- **Irradiance**: is the total incident power falling on a surface 
 <p align="center">
   <img src="https://i.imgur.com/Tn8jTqq.png" width="400">
 </p>
 
 - **Bidirectional reflectance distribution function**: 
-Model of local reflection that tells how *bright* a surface appears when viewed from one direction when light falls on it from another 
+This function models the local reflection that tells how *bright* a surface appears when viewed from one direction when light falls on it from another 
  <p align="center">
   <img src="https://i.imgur.com/8fXB83n.png" width="400">
 </p>
@@ -108,7 +108,7 @@ Model of local reflection that tells how *bright* a surface appears when viewed 
   - Lambertian/diffuse surfaces: appear equally bright from all viewing directions (viewing direction no longer necessary in the equation vs. BRDF)
 
 - **Simplified rendering models**
-  - With a Lambertian assumption), element-wise multiplication with illumination gives the color signal
+  - With a Lambertian assumption, element-wise multiplication with illumination gives the color signal
   
   - BRDF -> reflectance: For diffuse reflections, we replace the BRDF calculation with a wavelength-by-wavelength scalar multiplication
   <p align="center">
