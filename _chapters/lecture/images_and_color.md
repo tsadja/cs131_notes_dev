@@ -74,18 +74,12 @@ A grayscale image is also a matrix of pixels, however each pixel is now a value,
 
 A color image is a matrix of pixels where each pixel holds 3 values, all typically from 0 to 255. There are many ways to encode color, and one of the most common ways is RGB, where the three channels store how much red, green, and blue are in each pixel. 
 
+<p float="left">
+  <img src="https://i.imgur.com/4BsaFME.png" width="100" />
+  <img src="https://i.imgur.com/yirz9I9.png" width="100" /> 
+  <img src="https://i.imgur.com/1pyZ3UC.png" width="100" />
+</p>
 
- <div class="row">
-  <div class="column">
-    <img src="https://i.imgur.com/4BsaFME.png" alt="Red Cat" style="width:20%">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/yirz9I9.png" alt="Green Cat" style="width:20%">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/1pyZ3UC.png" alt="Blue Cat" style="width:20%">
-  </div>
-</div> 
 
 <p align="center">
   <div class="figcaption">The color image above has been split into 3 channels corresponding to the amount of red, blue, and green light in each pixel. Each channel is itself a 2D matrix, with each pixel being the amount of the corresponding color in RGB space.</div>
