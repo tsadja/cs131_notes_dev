@@ -34,11 +34,43 @@ There exists three main types of images commonly processed using computer vision
 
 **How do computers store images?** A computer stores an image as a matrix of values. A q by p pixel image is stored in a computer as a matrix with q rows and p columns. Every element inside of the matrix is a pixel, and the data the pixel stores will depend on the type of image. 
 
+- **Binary Images**:
+
+<p align="center">
+  <img src="https://imgur.com/6NOAds5" width="500"> 
+  <div class="figcaption">The first type of image is a binary image.</div>
+</p>
 
 A binary image is a matrix of pixels, where each pixel can only take two values. In this graphical display, pixels that have a value of '0' are displayed as black, while pixels with a value of '1' are displayed as white.
 
+<p align="center">
+  <img src="https://imgur.com/vGHZYeS" width="500"> 
+  <div class="figcaption">Above is a matrix representation of a binary image. All values are either '0' or '1'. </div>
+</p>
+
+
+- **Grayscale Images**:
+
+<p align="center">
+  <img src="https://imgur.com/iuFQceQ" width="500"> 
+  <div class="figcaption">The second type of image is a grayscale image.</div>
+</p>
+
 A grayscale image is also a matrix of pixels, however each pixel is now a value, typically from 0 to 255, corresponding to the intensity of the light at each pixel. The higher the value, the lighter the pixel is, from black to white. Having a different value everywhere gives a way to represent different intensities in grayscale.
 
+<p align="center">
+  <img src="https://imgur.com/Zsvd2r2" width="500"> 
+  <div class="figcaption">Above is a matrix representation of a grayscale image. All values are integers between '0' and '255'. </div>
+</p>
+
+
+- **Color Images**:
+
+
+<p align="center">
+  <img src="https://imgur.com/KZRaADd" width="500"> 
+  <div class="figcaption">The third type of image is a color image.</div>
+</p>
 
 A color image is a matrix of pixels where each pixel holds 3 values, all typically from 0 to 255. There are many ways to encode color, and one of the most common ways is RGB, where the three channels store how much red, green, and blue are in each pixel. 
 
@@ -50,6 +82,10 @@ Sampling involves the digitialization of image coordinates values. All digital i
 
 ### Quantization
 Quantization involves the digitalization of image amplitude values. Due to dissonance between the fundamentally continuous nature of light and the discrete nature of digital images, the values of the individual pixels are also discretized. Therefore, each pixel undergoes a quantization function depending on the image type:
+
+<p align="center">
+  <img src="https://imgur.com/bNU3en5" width="500"> 
+</p>
 
 
 ## 2. Color Physics
