@@ -172,15 +172,10 @@ The colors that we perceive are dependent on the colors surrounding them. Even t
   <div class="figcaption">An example of this principle. We can see that the squares that appear to have different RGB values are actually the same, and the blue squares that appear to be the same actually have different RGB values.</div>
 </p>
 
-
----
 <p align="center">
   <img src="https://i.imgur.com/CSGRfcH.png" width="500">
   <div class="figcaption">Another example. In the first figure, although the center square on the left appears to be brighter than the one on the right, they are both the same color. In the second figure, we can tell that the center square is meant to be red, but it does not share the same RGB value as the one on the left.</div>
 </p>
-
-
----
 
 The true color of a point cannot be directly inferred from its RGB value in an image. Rather, the effects of illumination on the scene must be considered as well.
 
@@ -192,7 +187,6 @@ We want to be able to find the true color of a surface regardless of the effects
   <div class="figcaption"> This figure shows how combinations of surfaces with different reflectances and different lighting can produce the same luminance as solutions to the L = IR equation. The example on the left shows no light on a surface with high reflectance. The middle example shows some light on a surface with moderate reflectance. The right example shows bright light on a surface with little reflectance.</div>
 </p>
 
----
 
 ### Retinex Theory
 Edges affect the way we perceive color.
@@ -201,13 +195,13 @@ Edges affect the way we perceive color.
   <div class="figcaption">The Craik O' Brien-Cornsweet Illusion demonstrates how edges can change our perception of color. Though the color we observe on the top shape appears to be darker than the one we observe on the bottom, they do in fact have the same RGB value.</div>
 </p>
 
----
+
 According to Land and McCann's Retinex theory, this is because edges, or sharp changes in luminance, are due to changes in reflectance, which is why we perceive this as a change in color. Smooth changes in luminance can be explained due to changes in illumination.
 <p align="center">
   <img src="https://i.imgur.com/8tYwV6l.png" width="500">
   <div class="figcaption">We perceive the subtle changes in luminance in each rectangle to still have the same reflectance. However, when the change is sharp, we can interpret it as having a different reflectance.</div>
 </p>
----
+
 <p align="center">
   <img src="https://i.imgur.com/SQRCUcH.png" width="500">
   <div class="figcaption">In Knill and Kersten's illusion, why do we perceive both  cylinders to have the same reflectance but the cubes as having different reflectances despite both shapes having the same changes in luminance? This is because the changes in orientation along the surface of the cylinders allows our eyes to explain the change in luminance, whereas the flat surface of the cube does not explain the change in luminance. </div>
