@@ -35,11 +35,10 @@ changes, to group parts of one object together in a scene...
 
 
 ### The Physics of Light
-- Any patch of light can be completely described physically by its spectrun: the number of photons (per time unit) at each wavelength 400 - 700 nm.
+Any patch of light can be completely described physically by its spectrun: the number of photons (per time unit) at each wavelength 400 - 700 nm.
 
 <p align="center">
-  <img src="https://i.imgur.com/BlbK6eT.png" width="300"> 
-  <img src="https://i.imgur.com/j1GObc1.png" width="200">
+  <img src="https://i.imgur.com/BlbK6eT.png" width="400"> 
 </p>
   
 - Example of light sources:
@@ -102,15 +101,17 @@ This function models the local reflection that tells how *bright* a surface appe
 
 
 - **Lambertian Reflectance**
+
   <p align="center">
     <img src="https://i.imgur.com/QQgn85Z.png" width="400">
   </p>
-  - Lambertian/diffuse surfaces: appear equally bright from all viewing directions (viewing direction no longer necessary in the equation vs. BRDF)
+  Lambertian/diffuse surfaces: appear equally bright from all viewing directions (viewing direction no longer necessary in the equation vs. BRDF)
 
 - **Simplified rendering models**
   - With a Lambertian assumption, element-wise multiplication with illumination gives the color signal
   
   - BRDF -> reflectance: For diffuse reflections, we replace the BRDF calculation with a wavelength-by-wavelength scalar multiplication
+  
   <p align="center">
     <img src="https://i.imgur.com/uoInRKK.png" width="200">
     <img src="https://i.imgur.com/4ZsfyLu.png" width="600">
@@ -125,12 +126,12 @@ This function models the local reflection that tells how *bright* a surface appe
 <a name='ref'></a>
 
 ### Reflectance spectra of surfaces
-- Some surfaces reflect incoming lights (vs. light sources)
+Some surfaces reflect incoming lights (vs. light sources)
 <p align="center">
   <img src="https://i.imgur.com/rkZ3YYP.png" width="400">
 </p>
 
-- Notice that different colours typically have different spectral albedo, but that different spectral albedoes may result in the same perceived color (compare the two whites) because of our own perceptive systems.
+Notice that different colours typically have different spectral albedo, but that different spectral albedoes may result in the same perceived color (compare the two whites) because of our own perceptive systems.
 <p align="center">
   <img align="center" src="https://i.imgur.com/URZitNz.png" width="400">
 </p>
