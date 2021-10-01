@@ -6,6 +6,10 @@ order: 0
 
 The Table of Contents:
 
+-[Images, Sampling, and Quantization](#images-sampling-and-quantization)
+  - [Types of Images](#types-of-images)
+  - [Sampling](#sampling)
+  - [Quantization](#quantization)
 - [Color Physics](#2-color-physics)
   - [Motivation Question](#motivation-question)
   - [The Physics of Light](#the-physics-of-light)
@@ -24,6 +28,29 @@ The Table of Contents:
   - [Retinex Theory](#retinex-theory)
   - [Moving to a 3D World](#moving-to-a-3d-world)
 
+## 1. Images, Sampling and Quantization
+
+### Types of Images
+There exists three main types of images commonly processed using computer vision: binary, grayscale, and color images.
+
+**How do computers store images?** A computer stores an image as a matrix of values. A q by p pixel image is stored in a computer as a matrix with q rows and p columns. Every element inside of the matrix is a pixel, and the data the pixel stores will depend on the type of image. 
+
+
+A binary image is a matrix of pixels, where each pixel can only take two values. In this graphical display, pixels that have a value of '0' are displayed as black, while pixels with a value of '1' are displayed as white.
+
+A grayscale image is also a matrix of pixels, however each pixel is now a value, typically from 0 to 255, corresponding to the intensity of the light at each pixel. The higher the value, the lighter the pixel is, from black to white. Having a different value everywhere gives a way to represent different intensities in grayscale.
+
+
+A color image is a matrix of pixels where each pixel holds 3 values, all typically from 0 to 255. There are many ways to encode color, and one of the most common ways is RGB, where the three channels store how much red, green, and blue are in each pixel. 
+
+
+### Sampling
+Sampling involves the digitialization of image coordinates values. All digital images are sampled, and are thusly composed of discrete pixels that are arranged in a matrix. This means that the digital image is only an approximation of the real world. 
+
+
+
+### Quantization
+Quantization involves the digitalization of image amplitude values. Due to dissonance between the fundamentally continuous nature of light and the discrete nature of digital images, the values of the individual pixels are also discretized. Therefore, each pixel undergoes a quantization function depending on the image type:
 
 
 ## 2. Color Physics
