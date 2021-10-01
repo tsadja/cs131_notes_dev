@@ -77,13 +77,13 @@ A color image is a matrix of pixels where each pixel holds 3 values, all typical
 <p align="center">
  <div class="row">
   <div class="column">
-    <img src="https://i.imgur.com/4BsaFME.png" alt="Red Cat" style="width:100%">
+    <img src="https://i.imgur.com/4BsaFME.png" alt="Red Cat" style="width:20%">
   </div>
   <div class="column">
-    <img src="https://i.imgur.com/yirz9I9.png" alt="Green Cat" style="width:100%">
+    <img src="https://i.imgur.com/yirz9I9.png" alt="Green Cat" style="width:20%">
   </div>
   <div class="column">
-    <img src="https://i.imgur.com/1pyZ3UC.png" alt="Blue Cat" style="width:100%">
+    <img src="https://i.imgur.com/1pyZ3UC.png" alt="Blue Cat" style="width:20%">
   </div>
 </div> 
 
