@@ -113,7 +113,7 @@ With a Lambertian assumption, element-wise multiplication with illumination give
   - **BRDF -> reflectance**: For diffuse reflections, we replace the BRDF calculation with a wavelength-by-wavelength scalar multiplication
   
   <p align="center">
-    <img src="https://i.imgur.com/uoInRKK.png" width="200">
+    <img src="https://i.imgur.com/uoInRKK.png" width="150">
     <img src="https://i.imgur.com/4ZsfyLu.png" width="600">
   </p>
   
