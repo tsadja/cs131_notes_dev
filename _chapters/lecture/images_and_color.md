@@ -108,16 +108,16 @@ This function models the local reflection that tells how *bright* a surface appe
   Lambertian/diffuse surfaces: appear equally bright from all viewing directions (viewing direction no longer necessary in the equation vs. BRDF)
 
 - **Simplified rendering models**
-  - With a Lambertian assumption, element-wise multiplication with illumination gives the color signal
+With a Lambertian assumption, element-wise multiplication with illumination gives the color signal
   
-  - BRDF -> reflectance: For diffuse reflections, we replace the BRDF calculation with a wavelength-by-wavelength scalar multiplication
+  - **BRDF -> reflectance**: For diffuse reflections, we replace the BRDF calculation with a wavelength-by-wavelength scalar multiplication
   
   <p align="center">
     <img src="https://i.imgur.com/uoInRKK.png" width="200">
     <img src="https://i.imgur.com/4ZsfyLu.png" width="600">
   </p>
   
-  - Transmittance
+  - **Transmittance**
   <p align="center">
     <img src="https://i.imgur.com/XG0qBug.png" width="200">
     <img src="https://i.imgur.com/tNKIzOc.png" width="600">
