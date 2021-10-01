@@ -38,7 +38,7 @@ changes, to group parts of one object together in a scene...
 Any patch of light can be completely described physically by its spectrun: the number of photons (per time unit) at each wavelength 400 - 700 nm.
 
 <p align="center">
-  <img src="https://i.imgur.com/BlbK6eT.png" width="400"> 
+  <img src="https://i.imgur.com/BlbK6eT.png" width="500"> 
 </p>
   
 - Example of light sources:
