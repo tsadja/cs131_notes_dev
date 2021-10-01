@@ -105,7 +105,7 @@ Sampling involves the digitialization of image coordinates values. All digital i
 ### Quantization
 
   <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/26168327/135560920-39c6c846-6899-43de-9fe4-cf661bb2086d.png)" width="300"> 
+  <img src="https://i.imgur.com/X5GzWg8.png" width="300"> 
   <div class="figcaption">This is a quantized sine wave. </div>
 </p>
   
