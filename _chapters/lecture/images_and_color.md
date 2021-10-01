@@ -37,7 +37,7 @@ There exists three main types of images commonly processed using computer vision
 - **Binary Images**:
 
   <p align="center">
-    <img src="https://i.imgur.com/6NOAds5.png" width="500"> 
+    <img src="https://i.imgur.com/6NOAds5.png" width="400"> 
     <div class="figcaption">The first type of image is a binary image.</div>
   </p>
 
@@ -52,7 +52,7 @@ There exists three main types of images commonly processed using computer vision
 - **Grayscale Images**:
 
   <p align="center">
-    <img src="https://i.imgur.com/iuFQceQ.png" width="500"> 
+    <img src="https://i.imgur.com/iuFQceQ.png" width="400"> 
     <div class="figcaption">The second type of image is a grayscale image.</div>
   </p>
 
@@ -68,7 +68,7 @@ There exists three main types of images commonly processed using computer vision
 
 
   <p align="center">
-    <img src="https://i.imgur.com/KZRaADd.png" width="500"> 
+    <img src="https://i.imgur.com/KZRaADd.png" width="400"> 
     <div class="figcaption">The third type of image is a color image.</div>
   </p>
 
@@ -89,14 +89,14 @@ There exists three main types of images commonly processed using computer vision
 ### Sampling
 
   <p align="center">
-    <img src="https://i.imgur.com/iHWKOrT.png" width="200"> 
+    <img src="https://i.imgur.com/iHWKOrT.png" width="300"> 
     <div class="figcaption">This is an example sine wave. The axes are spaced by light intensity.</div>
   </p>
   
-    <p align="center">
-    <img src="https://i.imgur.com/6WuH64Q.png" width="200"> 
-    <div class="figcaption">This is a sampled sine wave. Information is lost as the original sine wave is being sampled at a discrete and finite amount of points.</div>
-  </p>
+  <p align="center">
+  <img src="https://i.imgur.com/6WuH64Q.png" width="300"> 
+  <div class="figcaption">This is a sampled sine wave. Information is lost as the original sine wave is being sampled at a discrete and finite amount of points.</div>
+</p>
 
 Sampling involves the digitialization of image coordinates values. All digital images are sampled, and are thusly composed of discrete pixels that are arranged in a matrix. This means that the digital image is only an approximation of the real world. 
 
@@ -104,15 +104,15 @@ Sampling involves the digitialization of image coordinates values. All digital i
 
 ### Quantization
 
-    <p align="center">
-    <img src="https://i.imgur.com/kRWntCz.png" width="200"> 
-    <div class="figcaption">This is a quantized sine wave. </div>
-  </p>
+  <p align="center">
+  <img src="https://i.imgur.com/kRWntCz.png" width="300"> 
+  <div class="figcaption">This is a quantized sine wave. </div>
+</p>
   
 Quantization involves the digitalization of image amplitude values. Due to dissonance between the fundamentally continuous nature of light and the discrete nature of digital images, the values of the individual pixels are also discretized. Therefore, each pixel undergoes a quantization function depending on the image type:
 
 <p align="center">
-  <img src="https://i.imgur.com/bNU3en5.png" width="500"> 
+  <img src="https://i.imgur.com/bNU3en5.png" width="400"> 
 </p>
 
 
