@@ -44,7 +44,7 @@ There exists three main types of images commonly processed using computer vision
 A binary image is a matrix of pixels, where each pixel can only take two values. In this graphical display, pixels that have a value of '0' are displayed as black, while pixels with a value of '1' are displayed as white.
 
 <p align="center">
-  <img src="https://i.imgur.com/vGHZYeS.png" width="500"> 
+  <img src="https://i.imgur.com/vGHZYeS.png" width="200"> 
   <div class="figcaption">Above is a matrix representation of a binary image. All values are either '0' or '1'. </div>
 </p>
 
@@ -59,7 +59,7 @@ A binary image is a matrix of pixels, where each pixel can only take two values.
 A grayscale image is also a matrix of pixels, however each pixel is now a value, typically from 0 to 255, corresponding to the intensity of the light at each pixel. The higher the value, the lighter the pixel is, from black to white. Having a different value everywhere gives a way to represent different intensities in grayscale.
 
 <p align="center">
-  <img src="https://i.imgur.com/Zsvd2r2.png" width="500"> 
+  <img src="https://i.imgur.com/Zsvd2r2.png" width="200"> 
   <div class="figcaption">Above is a matrix representation of a grayscale image. All values are integers between '0' and '255'. </div>
 </p>
 
