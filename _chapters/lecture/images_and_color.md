@@ -72,7 +72,7 @@ There exists three main types of images commonly processed using computer vision
     <div class="figcaption">The third type of image is a color image.</div>
   </p>
 
-A color image is a matrix of pixels where each pixel holds 3 values, all typically from 0 to 255. There are many ways to encode color, and one of the most common ways is RGB, where the three channels store how much red, green, and blue are in each pixel. 
+  A color image is a matrix of pixels where each pixel holds 3 values, all typically from 0 to 255. There are many ways to encode color, and one of the most common ways is RGB, where the three channels store how much red, green, and blue are in each pixel. 
 <p align="center">
 <p float="center">
   <img src="https://i.imgur.com/4BsaFME.png" width="200" />
